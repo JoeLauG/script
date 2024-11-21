@@ -13,11 +13,11 @@
 #add-type -path "C:\Users\l230445\product\11.2.0\client_1\ODP.NET\bin\2.x\Oracle.DataAccess.dll"
 #add-type -path "C:\Users\l230445\Documents\B02\script\dll\Policy.4.122.Oracle.ManagedDataAccess.dll"
 
-$username = "ivrs"
-$password = "ivrs345#"
-$data_source = "(DESCRIPTION =(ADDRESS_LIST =(ADDRESS = (PROTOCOL = TCP)(HOST = 172.17.84.156)(PORT = 15252)))(CONNECT_DATA =(SERVICE_NAME = orampfp1)))"
+$username = ""
+$password = ""
+$data_source = "(DESCRIPTION =(ADDRESS_LIST =(ADDRESS = (PROTOCOL = TCP)(HOST = 127.0.0.1)(PORT = 15252)))(CONNECT_DATA =(SERVICE_NAME = tmp)))"
 $connection_string = "User Id=$username;Password=$password;Data Source=$data_source"
-$statement = "select count(*) from MPF_MEMBER "
+$statement = "select count(*) from users"
 
 try{
     $con = New-Object System.Data.OracleClient.OracleConnection($connection_string)
