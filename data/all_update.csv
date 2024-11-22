@@ -1,4 +1,4 @@
--99	code	sink_below	lst_date	lot_size	mkt_cap	off_price	lst_price	over_sub_rate	one_lot	one_lot_suc_rate	last	first_per	acc_per
+name	code	sink_below	lst_date	lot_size	mkt_cap	off_price	lst_price	over_sub_rate	one_lot	one_lot_suc_rate	last	first_per	acc_per
 -99	-99	0	-99	100	101.57	65	65.000	20.1	15	0.15	88.500	0.2	0.3615
 -99	-99	1	-99	300	62.11	15.6	15.600	16.7	2	0.7	10.960	-0.1141	-0.2974
 -99	-99	0	-99	1000	31.96	3.61	3.610	5676.8	700	0.002	3.870	0.4765	0.072
